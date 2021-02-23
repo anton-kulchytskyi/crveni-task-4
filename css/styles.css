@@ -18,10 +18,13 @@ header {
 }
 .menu ul li {
     width: 20%;
+    position: relative;
 }
 .menu ul li > ul {
     display: none;
     flex-direction: column;
+    position: absolute;
+    width: 100%;
 }
 .menu ul li:hover > ul {
     display: flex;
